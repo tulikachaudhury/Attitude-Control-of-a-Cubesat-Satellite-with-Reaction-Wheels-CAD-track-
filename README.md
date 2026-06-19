@@ -13,6 +13,9 @@ The 1U form factor faces a volume crisis, allowing no room for a payload.
 The 2U form factor does allow space for a small payload but the asymmetric physics due to the centre of mass lying between the 2 1U units make it an unfavourable choice. Moreover, the 2U form factor is much less common in the industry so it is hard to find references.
 The 3U form factor ultimately wins out as the segments can be divided cleanly(payload, ADCS, avionics), and it solves the centre of mass and volume issues. The larger surface area also allows for massive power generation from solar panels. 
 
+<ins>The Subsystems</ins>
+
+
 | Component                 | What to Include (High Detail)                                                                                                                            | What to Simplify / Skip (Low Detail)                                                              |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **Chassis / Frame**       | Continuous 8.5 mm corner rails, external face plates, specific cutouts/holes for the camera lens, and structural assembly bolts.                         | Skip modeled screw threads (keep screw bodies as smooth cylinders).                               |
