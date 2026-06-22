@@ -12,6 +12,7 @@ Designing a 3U cubesat satellite with at least 3 mutually perpendicular reaction
 The 1U form factor faces a volume crisis, allowing no room for a payload.
 The 2U form factor does allow space for a small payload but the asymmetric physics due to the centre of mass lying between the 2 1U units make it an unfavourable choice. Moreover, the 2U form factor is much less common in the industry so it is hard to find references.
 The 3U form factor ultimately wins out as the segments can be divided cleanly(payload, ADCS, avionics), and it solves the centre of mass and volume issues. The larger surface area also allows for massive power generation from solar panels. 
+The 3U CubeSat has become the industry standard for commercial applications, offering the optimal balance between payload capacity, power generation, and cost-effectiveness. Companies like Planet Labs operate entire Earth observation constellations using 3U Dove satellites, while 6U and 12U platforms enable more sophisticated missions including deep space exploration and advanced propulsion systems.
 
 <ins>The Subsystems</ins>
 
@@ -24,3 +25,11 @@ The 3U form factor ultimately wins out as the segments can be divided cleanly(pa
 | **Electronics (OBC/EPS)** | Simple rectangular plates (PCBs) representing each board, featuring standard PC104 stack-through connectors (the blocky pins connecting stacked boards). | Do not model individual resistors, chips, or capacitors. Represent them as flat blocks if needed. |
 | **Batteries**             | A clustered pack of cylindrical cells (modeled as simple smooth cylinders, e.g., standard 18650 size dimensions) enclosed in a securing clip.            | Skip wiring leads and individual solder tabs.                                                     |
 | **Solar Panels**          | Thin external PCB sheets bolted to the frame faces, with shallow extruded rectangular shapes (~0.3 mm thick) representing the solar cells.               | Skip the micro-wires connecting the cells together.                                               |
+
+The rails must be the longest part of the body, therefore a standoff offset of 2mm on either side is taken.
+As stated in the Cal Poly blueprint, I have followed the standoff contact detail, and the max allowable protrusion on the faces is the rail width.
+
+References:
+International Journal of Aerospace
+hexstaruniverse.com
+nanoavionics.com
