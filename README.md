@@ -1,5 +1,5 @@
 # Attitude-Control-of-a-Cubesat-Satellite-with-Reaction-Wheels-CAD-track-
-Designing a 3U cubesat satellite with at least 3 mutually perpendicular reaction wheels for attitude control, wheel mounting brackets, motor housing and structural supports. Ensure the design is dimensionally consistent and physically plausible.
+Designing a 3U cubesat satellite with at T3 mutually perpendicular reaction wheels for attitude control, wheel mounting brackets, motor housing and structural supports. Ensure the design is dimensionally consistent and physically plausible.
 
 <ins>The decision to use a 3U form factor</ins>
 | Parameter         | 1U        | 2U       | 3U        |
@@ -23,9 +23,9 @@ As stated in the Cal Poly blueprint, I have followed the standoff contact detail
 
 ACDS Design
 Motor : EC22 Flat L High Torque
-Reaction Wheel Diameter: 38m
-Reaction Wheel Thickness: 10mm
-
+Reaction Wheel Diameter: 35m
+Reaction Wheel Thickness: 8mm
+The 3 mutually perpendicular wheels are placed at azimuths of 0 degrees, 120 degrees and 240 degrees. 
 
 References:
 International Journal of Aerospace
